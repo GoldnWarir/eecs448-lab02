@@ -33,10 +33,10 @@ int LinkedList<T>::size() const
 		Fix this method
 
 	Node<T>* current = m_front;
+	int count=0;
 
 	while(current != nullptr)
 	{
-	int count;
 	current = current->getNext();
 	count++;
 	}
